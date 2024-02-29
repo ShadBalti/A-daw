@@ -1,7 +1,55 @@
-body {
-    font-size: 15pt;
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#tt{
-  background-color: red;
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Canvas styles */
+canvas {
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Button styles */
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Label styles */
+label {
+  font-weight: bold;
+}
+
+/* Select styles */
+select {
+  padding: 6px;
+}
+
+/* Input styles */
+input[type="color"] {
+  padding: 4px;
+}
+
+/* Container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
 }
