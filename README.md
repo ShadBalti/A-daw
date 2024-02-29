@@ -7,7 +7,7 @@ Welcome to the Drawing App! This is a simple web-based application written in Ja
 To get started, include the provided JavaScript code in your HTML file. The code consists of classes and functions necessary for the functionality of the Drawing App.
 
 ```html
-<script src="drawing_app.js"></script>
+<script src="pixel.js"></script>
 ```
 
 ## Usage
